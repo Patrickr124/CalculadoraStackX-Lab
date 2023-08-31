@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fundo{
+
+height: 100vh;
+color: rgb(247, 241, 241);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.calculadora{
+position: absolute; 
+background-color: rgba(17, 17, 17, 0.945);
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 8px;
+padding: 15px;
+text-align: center;
+margin: auto;
+}
+
+.botao2{
+    color:white ;
+background-color: blue;
+width: 50px;
+height: 50px;
+margin: 3px;
+font-size: 25px;
+border: none;
+cursor: pointer;
+}
+
+.botao{
+width: 50px;
+height: 50px;
+margin: 3px;
+font-size: 25px ;
+border: none;
+cursor: pointer;
+}
+
+.botao3{
+    width: 106px;
+height: 50px;
+margin: 3px;
+font-size: 25px;
+border: none;
+cursor: pointer;
+}
+
+#resultado{
+    width: 225px;
+height: 30px;
+    background-color: white;
+color: rgb(0, 0, 0);
+margin: 5px;
+text-align: right;
+font-size: 25px;
+}
+
+
+.botao:hover{
+    background-color: rgba(245, 236, 236, 0.884);
+}
+
+.botao2:hover{
+background-color: rgba(245, 236, 236, 0.884);
+ }
+
+.botao3:hover{
+ background-color: rgba(245, 236, 236, 0.884);
+}
+
+
+.tabela{ 
+border: white solid 2px;
+border-collapse: collapse;
+position: sticky;
+margin-left: 790px;
+color: rgb(236, 231, 231);
+padding: 3px;
+background: rgb(14, 13, 19);
+margin-top: 140px;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+border-radius: 5px;
+}
+
+html{
+    background:linear-gradient(rgba(0, 0, 255, 0.747),black)
+}
+
+.titulo{
+float: right;
+transform: translate(-350%,-150%);
+color:#fff;
+text-align: center;
+}
+
